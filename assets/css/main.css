@@ -1829,7 +1829,7 @@ input, select, textarea {
     appearance: none;
     transition: all 0.2s ease; /* Smoother transition for hover effects */
     background-color: transparent;
-    border: solid 1.25px rgba(255, 255, 255, 0.15) !important;
+    border: solid 1.5px rgba(255, 255, 255, 0.15) !important;
     border-radius: 3em;
     color: #ffffff !important;
     cursor: pointer;
@@ -3896,7 +3896,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #3d85c6;
+							background-color: #0b5394;
 						}
 
 		}
