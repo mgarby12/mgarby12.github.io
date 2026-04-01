@@ -3907,22 +3907,22 @@ input, select, textarea {
 			}
 
 		}
-
-/* Target the specific article boxes in the features grid */
 .features article {
-    padding: 4em 4em 2em 4em !important; 
+    padding: 2.5rem !important; 
     margin: 0 !important;
-    border-left: solid 1px rgba(255, 255, 255, 0.1);
-    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; /* Keeps text aligned to the left */
+    min-height: 100%; /* Keeps boxes same height if they are in a row */
 }
 
-/* If your template uses a specific 'inner' wrapper inside the article */
-.features article .inner {
-    padding: 2em !important;
-}
-
-/* Ensure the icon has space below it */
+/* Ensure the icon isn't floating too high or touching the top */
 .features article .icon {
-    margin-bottom: 2em !important;
-    display: block;
+    margin-bottom: 1.25rem !important;
+}
+
+/* Add a tiny bit of space between the heading and the paragraph */
+.features article h3 {
+    margin-bottom: 0.75rem !important;
 }
