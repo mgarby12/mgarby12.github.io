@@ -171,8 +171,11 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
-	}
+    font-size: 1.15rem !important; /* Makes the letters slightly larger than default */
+    line-height: 1.75 !important;  /* Adds breathing room between lines of text */
+    margin-bottom: 1.5rem;         /* Adds space between separate paragraphs */
+    color: rgba(255, 255, 255, 0.85); /* Keeps the white from being blindingly bright */
+}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
@@ -1844,7 +1847,7 @@ input, select, textarea {
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0.75rem 1.5rem !important;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
