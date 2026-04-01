@@ -3907,3 +3907,27 @@ input, select, textarea {
 			}
 
 		}
+
+/* 1. Add breathing room inside the feature articles */
+.features article {
+    padding: 3rem 2rem !important; /* Top/Bottom 3rem, Left/Right 2rem */
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255,255,255,0.1); /* Optional: adds a subtle border to define the box */
+}
+
+/* 2. Space out the icon from the title */
+.features article .icon {
+    margin-bottom: 1.5rem !important;
+    display: inline-block;
+}
+
+/* 3. Make the text more readable against the purple */
+.features article h3 {
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.features article p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+}
