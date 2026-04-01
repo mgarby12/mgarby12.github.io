@@ -1992,30 +1992,33 @@ input, select, textarea {
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
 		margin: 0 0 2em 0;
+		display: grid !important;
+   		grid-gap: 1.5rem !important; /* This controls the space BETWEEN the boxes */
+    	margin-top: 2rem !important;
 	}
 
-/* 1. Reduce the gap between the grid items */
-.features {
-    display: grid !important;
-    grid-gap: 1.5rem !important; /* This controls the space BETWEEN the boxes */
-    margin-top: 2rem !important;
-}
 
-/* 2. Shrink the internal space of each box */
 .features article {
-    padding: 1.5rem !important; /* Reduced from 3rem+ */
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; /* Keeps text aligned to the left */
+    min-height: 100%; /* Keeps boxes same height if they are in a row */
+	margin-bottom: 1.25rem !important;
+	padding: 1.5rem !important; /* Reduced from 3rem+ */
     margin-bottom: 0 !important; /* Removes extra bottom margin */
     min-height: auto !important; /* Prevents boxes from being forced to a certain height */
 }
 
-/* 3. Tighten the space between the Title and the Paragraph */
+/* Add a tiny bit of space between the heading and the paragraph */
 .features article h3 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.75rem !important;
 }
 
 /* 4. If you have multiple <p> tags, reduce the gap between them */
 .features article p {
-    margin-bottom: 0.75rem !important;
+    margin-bottom: 0.5rem !important;
 }
 
 		.features section {
@@ -2851,6 +2854,17 @@ input, select, textarea {
 				ul.icons li > a .label, ul.icons li > span .label {
 					display: none;
 				}
+
+		ul.icons li a {
+    		font-size: 1.5rem !important; /* Increases the icon size */
+    		width: 3rem !important;       /* Increases the clickable circle size */
+    		height: 3rem !important;      /* Keeps it a perfect circle */
+    		line-height: 3rem !important; /* Centers the icon vertically */
+    		display: inline-block;
+    		text-align: center;
+    		border-radius: 100%;          /* Makes the hover-background a circle */
+    		transition: transform 0.2s ease;
+		}
 
 /* Menu */
 
@@ -3932,22 +3946,4 @@ input, select, textarea {
 			}
 
 		}
-.features article {
-    padding: 2.5rem !important; 
-    margin: 0 !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start; /* Keeps text aligned to the left */
-    min-height: 100%; /* Keeps boxes same height if they are in a row */
-}
 
-/* Ensure the icon isn't floating too high or touching the top */
-.features article .icon {
-    margin-bottom: 1.25rem !important;
-}
-
-/* Add a tiny bit of space between the heading and the paragraph */
-.features article h3 {
-    margin-bottom: 0.75rem !important;
-}
