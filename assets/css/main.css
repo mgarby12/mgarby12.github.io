@@ -3908,26 +3908,21 @@ input, select, textarea {
 
 		}
 
-/* 1. Add breathing room inside the feature articles */
+/* Target the specific article boxes in the features grid */
 .features article {
-    padding: 3rem 2rem !important; /* Top/Bottom 3rem, Left/Right 2rem */
-    margin-bottom: 2rem;
-    border: 1px solid rgba(255,255,255,0.1); /* Optional: adds a subtle border to define the box */
+    padding: 4em 4em 2em 4em !important; 
+    margin: 0 !important;
+    border-left: solid 1px rgba(255, 255, 255, 0.1);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 }
 
-/* 2. Space out the icon from the title */
+/* If your template uses a specific 'inner' wrapper inside the article */
+.features article .inner {
+    padding: 2em !important;
+}
+
+/* Ensure the icon has space below it */
 .features article .icon {
-    margin-bottom: 1.5rem !important;
-    display: inline-block;
-}
-
-/* 3. Make the text more readable against the purple */
-.features article h3 {
-    margin-top: 1rem;
-    color: #ffffff;
-}
-
-.features article p {
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.6;
+    margin-bottom: 2em !important;
+    display: block;
 }
