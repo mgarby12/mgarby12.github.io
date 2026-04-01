@@ -1838,7 +1838,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
+		font-size: 1em;
 		font-weight: bold;
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
@@ -1898,7 +1898,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.4em;
+			font-size: 1em;
 		}
 
 		input[type="submit"].large,
@@ -1906,7 +1906,7 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 0.8em;
+			font-size: 1em;
 		}
 
 		input[type="submit"].primary,
@@ -3411,7 +3411,7 @@ input, select, textarea {
 						border: 0;
 						color: rgba(255, 255, 255, 0.35);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 1em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
@@ -3512,7 +3512,7 @@ input, select, textarea {
 		}
 
 	#footer > .inner .menu {
-		font-size: 0.8em;
+		font-size: 1em;
 		color: rgba(255, 255, 255, 0.15);
 	}
 
@@ -3739,7 +3739,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 1em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
