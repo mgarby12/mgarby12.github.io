@@ -1916,7 +1916,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #0b5394 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2472,7 +2472,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #3d85c6;
 			content: '\f00c';
 		}
 
@@ -2553,7 +2553,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #3d85c6;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2564,27 +2564,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #3d85c6;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #3d85c6;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #3d85c6;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #3d85c6;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #3d85c6;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #3d85c6;
 				}
 
 /* Image */
@@ -3279,27 +3279,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #9fc5e8;
+			background-color: #6fa8dc;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #6fa8dc;
-		}
-
-		.wrapper.style2 {
-			background-color: #6fa8dc;
-		}
-
-		.wrapper.style2-alt {
 			background-color: #3d85c6;
 		}
 
+		.wrapper.style2 {
+			background-color: #3d85c6;
+		}
+
+		.wrapper.style2-alt {
+			background-color: #0b5394;
+		}
+
 		.wrapper.style3 {
-			background-color: #b4a7d6;
+			background-color: #6fa8dc;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #8e7cc3;
+			background-color: #3d85c6;
 		}
 
 		.wrapper.fullscreen {
@@ -3409,7 +3409,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #9fc5e8;
+		background-color: #6fa8dc;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
