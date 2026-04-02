@@ -200,10 +200,6 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-color: #073763 !important; /* Michigan Maize */
-    			background-image: none !important;    /* Removes any purple gradients */
-    			height: 4px !important;
-				
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
@@ -3804,7 +3800,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #073763;
 			}
 
 			#sidebar nav a:after {
