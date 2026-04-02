@@ -34,12 +34,12 @@
 						<div class="inner">
 							<h1 class="major">C++ Projects</h1>
 							<h2 class="major">Treasure Hunt</h2>
-							<p>Engineered a high-performance navigation system that identifies the most efficient route from a starting coordinate to a target in a complex 2D 'Treasure Hunt' environment. The implementation uses both optimized Breadth-First Search (BFS) and Depth-First Search (DFS). A custom back-tracing algorithm is utilized to reconstruct the final path while adhering to strict O(N) time and memory constraints.</p>
+							<p>A high-performance navigation system that identifies the most efficient route from a starting coordinate to a target in a complex 2D 'Treasure Hunt' environment. Custom back-tracing algorithm utilized to reconstruct path taken.</p>
 							<h3 class="major">Key Technical Features:</h3>
 							<ul>
     							<li>Robust system translates 2D grid coordinates into searchable state space, handling map boundaries and obstacles</li>
-    							<li>Implements both BFS and DFS algorithms</li>
-    							<li>Manages user input for several game settings (including but not limited to)</li>
+    							<li>Implements both optimized Breadth-First Search (BFS) and Depth-First Search (DFS)</li>
+    							<li>Manages user input through command line arguments for several game settings (including but not limited to)</li>
 								<ul>
     								<li>Route-finding container used while traversing water (stack or queue)</li>
     								<li>Route-finding container used while traversing land (stack or queue)</li>
@@ -91,6 +91,63 @@
 </section>
 						</div>
 					</section>
+
+
+
+<h2 class="major">Zombie Attack</h2>
+							<p>Efficient and optimal algorithm implemented to prioritize zombie killing based on their unique srengths, speeds, and relative distances. Several rounds played until all zombies killed or zombies kill player.</p>
+							<h3 class="major">Key Technical Features:</h3>
+							<ul>
+    							<li>Priority queue used to prioritize zombie killing</li>
+    							<li>New zombies created both directly as specified by input file and also through random generations</li>
+    							<li>Manages user input through command line arguments for level of verbosity of output</li>
+							</ul>
+							<section>
+    <header>
+        <h3 class="major">Example Execution 1:</h3>
+		<p>Settings: QUEUE water traversal, STACK land traversal, NWSE priority, Map path display</p>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image fit">
+                <img src="images/thMap1.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Output File</h4>
+            <span class="image fit">
+                <img src="images/thOut1.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+    </div>
+</section>
+							<section>
+    <header>
+        <h3 class="major">Example Execution 2:</h3>
+		<p>Settings: STACK water traversal, QUEUE land traversal, EWSN priority, List path display</p>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image fit">
+                <img src="images/thMap2.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Output File</h4>
+            <span class="image fit">
+                <img src="images/thOut2.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+    </div>
+</section>
+						</div>
+					</section>
+
+				
 
 			</div>
 
