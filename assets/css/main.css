@@ -3061,7 +3061,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: #073763
+				background: #093e6d
 				content: '';
 				display: block;
 				height: 100%;
@@ -3800,7 +3800,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #073763;
+				background: #093e6d;
 			}
 
 			#sidebar nav a:after {
