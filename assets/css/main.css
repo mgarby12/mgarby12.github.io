@@ -3965,9 +3965,9 @@ input, select, textarea {
 
 .image-caption {
     display: block;
-    font-size: 0.75rem;     /* Makes it quite small */
+    font-size: 0.5rem;     /* Makes it quite small */
     font-style: italic;     /* Standard for captions */
-    color: #a0a0a0;         /* Fades it slightly so it doesn't distract */
+    color: #f0f0f0;         /* Fades it slightly so it doesn't distract */
     text-align: center;     /* Centers it under the image */
-    margin-top: 10px;       /* Adds a little breathing room */
+    margin-top: 5px;       /* Adds a little breathing room */
 }
