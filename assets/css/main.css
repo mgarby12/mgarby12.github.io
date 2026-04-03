@@ -3948,3 +3948,18 @@ input, select, textarea {
 
 		}
 
+/* Custom utility to center everything inside a column */
+.center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Optional: Keep the image from blowing up too large/blurry */
+.center-column img {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* Overrides the 'image fit' 100% width */
+}
+
