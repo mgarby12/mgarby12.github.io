@@ -3964,9 +3964,17 @@ input, select, textarea {
 }
 
 p.image-caption {
-    font-size: 0.8rem !important;   /* !important forces the size change */
+    /* Much smaller and tighter */
+    font-size: 0.65rem !important; 
+    
+    /* Lower opacity makes it look 'grayer' and less 'white' */
+    color: rgba(255, 255, 255, 0.45) !important; 
+    
+    /* Extra letter spacing makes tiny text easier to read */
+    letter-spacing: 0.05rem !important; 
+    
+    /* Keep these the same */
     font-style: italic !important;
-    color: rgba(255, 255, 255, 0.6) !important; 
     margin-top: 0.5rem !important;
     text-align: center !important;
     line-height: 1.2 !important;
