@@ -3963,11 +3963,12 @@ input, select, textarea {
     width: auto; /* Overrides the 'image fit' 100% width */
 }
 
-.image-caption {
+p.image-caption {
+    font-size: 0.8rem !important;   /* !important forces the size change */
+    font-style: italic !important;
+    color: rgba(255, 255, 255, 0.6) !important; 
+    margin-top: 0.5rem !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
     display: block;
-    font-size: 0.25rem;     /* Makes it quite small */
-    font-style: italic;     /* Standard for captions */
-    color: #f0f0f0;         /* Fades it slightly so it doesn't distract */
-    text-align: center;     /* Centers it under the image */
-    margin-top: 2px;       /* Adds a little breathing room */
 }
