@@ -3965,10 +3965,10 @@ input, select, textarea {
 
 p.image-caption {
     /* Much smaller and tighter */
-    font-size: 0.9rem !important; 
+    font-size: 0.95rem !important; 
     
     /* Lower opacity makes it look 'grayer' and less 'white' */
-    color: rgba(255, 255, 255, 0.55) !important; 
+    color: rgba(255, 255, 255, 0.6) !important; 
     
     /* Extra letter spacing makes tiny text easier to read */
     letter-spacing: 0.05rem !important; 
