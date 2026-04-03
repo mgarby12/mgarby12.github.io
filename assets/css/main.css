@@ -3965,7 +3965,7 @@ input, select, textarea {
 
 p.image-caption {
     /* Much smaller and tighter */
-    font-size: 0.65rem !important; 
+    font-size: 0.8rem !important; 
     
     /* Lower opacity makes it look 'grayer' and less 'white' */
     color: rgba(255, 255, 255, 0.45) !important; 
