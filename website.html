@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Melina Garby - C++ Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">MELINA GARBY</a>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">C++ Projects</h1>
+							<h2 class="major">Project 1: Treasure Hunt</h2>
+							<p>A high-performance navigation system that identifies the most efficient route from a starting coordinate to a target in a complex 2D 'Treasure Hunt' environment. Custom back-tracing algorithm utilized to reconstruct path taken.</p>
+							<h3 class="major">Key Technical Features:</h3>
+							<ul>
+    							<li>Robust system translates 2D grid coordinates into searchable state space, handling map boundaries and obstacles</li>
+    							<li>Implements both optimized Breadth-First Search (BFS) and Depth-First Search (DFS)</li>
+    							<li>Manages user input through command line arguments for several game settings (including but not limited to)</li>
+								<ul>
+    								<li>Route-finding container used while traversing water (stack or queue)</li>
+    								<li>Route-finding container used while traversing land (stack or queue)</li>
+    								<li>Order of search priority (North, East, South, West) for discovery of adjacent tiles around current location</li>
+									<li>Treasure map or list displaying locations that describe final path taken</li>
+							</ul>
+							</ul>
+							<section>
+    <header>
+        <h3 class="major">Example Execution 1:</h3>
+		<p>Settings: QUEUE water traversal, STACK land traversal, NWSE priority, Map path display</p>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image fit">
+                <img src="images/thMap1.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Output File</h4>
+            <span class="image fit">
+                <img src="images/thOut1.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+    </div>
+</section>
+							<section>
+    <header>
+        <h3 class="major">Example Execution 2:</h3>
+		<p>Settings: STACK water traversal, QUEUE land traversal, EWSN priority, List path display</p>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image fit">
+                <img src="images/thSpec.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Output File</h4>
+            <span class="image fit">
+                <img src="images/thOut2.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+    </div>
+</section>
+						
+
+
+
+<h2 class="major">Project 2: Zombie Attack</h2>
+							<p>Efficient and optimal algorithm implemented to prioritize zombie killing based on their unique srengths, speeds, and relative distances. Several rounds played until all zombies killed or zombies kill player.</p>
+							<h3 class="major">Key Technical Features:</h3>
+							<ul>
+    							<li>Priority queue used to prioritize zombie killing</li>
+    							<li>New zombies created both directly as specified by input file and also through random generations</li>
+    							<li>Manages user input through command line arguments for level of verbosity of output</li>
+							</ul>
+							<section>
+    <header>
+        <h3 class="major">Example Execution 1:</h3>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image fit">
+                <img src="images/zIn1.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Terminal Output</h4>
+            <span class="image fit">
+                <img src="images/zOut1.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+    </div>
+</section>
+							<section>
+    <header>
+        <h3 class="major">Example Execution 2:</h3>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image fit">
+                <img src="images/zIn2.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Terminal Output</h4>
+            <span class="image fit">
+                <img src="images/zOut2.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<h2 class="major">Project 3: Data Management System</h2>
+							<p>Several tables of data managed and manipluated based on input file. Operations inlude creating new tables, inserting/deleting/printing data from existing tables, joining distinct tables based matching values of selected columns, and generating a search index (hash or BST) on a selected column of a table.</p>
+							<h3 class="major">Key Technical Features:</h3>
+							<ul>
+    							<li>Design of custom table data structure for efficient storage</li>
+    							<li>Maps and unordered maps used to create BST and hash indexes</li>
+    							<li>Error handling for duplicate table names, attempted access to non-existent tables/columns, and unrecognized commands</li>
+							</ul>
+							<section>
+    <header>
+        <h3 class="major">Example Execution:</h3>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image fit">
+                <img src="images/dIn.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium">
+            <h4 style="text-align: center;">Terminal Output</h4>
+            <span class="image fit">
+                <img src="images/dOut.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+    </div>
+</section>
+							<section>
+
+
+
+	<h2 class="major">Project 4: Graph Traversals</h2>
+							<p>Finds either the minimum spanning tree or an efficient solution to the Traveling Salesperson Problem given a graph as a list of vertices. For increased complexity, movement from the first to third quadrant (or vice versa) is prohibited.</p>
+							<h3 class="major">Key Technical Features:</h3>
+							<ul>
+    							<li>Prim's algorithm implemented to find the minimum spanning tree</li>
+    							<li>2-Opt local search heuristic impltemented for TSP if time efficiency is chosen as priority</li>
+    							<li>Branch and Bound algorithm implemented for TSP if optimal solution is chosen as priority</li>
+							</ul>
+							<section>
+    <header>
+        <h3 class="major">Example Execution:</h3>
+
+    </header>
+    <div class="row" style="justify-content: center; align-items: center;">
+        <div class="col-6 col-12-medium center-column">
+            <h4 style="text-align: center;">Input File</h4>
+            <span class="image">
+                <img src="p4In.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+        </div>
+        
+        <div class="col-6 col-12-medium center-column">
+            <h4 style="text-align: center;">Output 1</h4>
+            <span class="image">
+                <img src="images/MST.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+			<p class="image-caption">Finds MST of graph and displays list of edges as node pairs</p>
+        </div>
+<div class="row">
+        <div class="col-6 col-12-medium center-column">
+            <h4 style="text-align: center;">Output 2</h4>
+            <span class="image">
+                <img src="images/FASTTSP.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
+            </span>
+			<p class="image-caption">Finds "good enough" solution to TSP within O(N<sup>2</sup>) time complexity</p>
+        </div>
+        
+        <div class="col-6 col-12-medium center-column">
+            <h4 style="text-align: center;">Output 3</h4>
+
+            <span class="image">
+                <img src="images/OPTTSP.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
+            </span>
+			<p class="image-caption">Finds optimal solution to TSP</p>
+        </div>
+
+		
+    </div>
+</section>
+							<section>
+
+
+
+
+
+
+
+
+
+							
+						</div>
+					</section>
+
+				
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Melina Garby. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
