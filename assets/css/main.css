@@ -3989,3 +3989,41 @@ p.image-caption {
     border-radius: 12px;  /* Softens the edges for a modern look */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Adds depth */
 }
+
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.video-item {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.portfolio-video {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #000; /* Black background while loading */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Make it "pop" when they hover to encourage a click */
+.portfolio-video:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+.video-item p {
+    margin-top: 15px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #333;
+}
