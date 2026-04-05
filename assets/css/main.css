@@ -3980,3 +3980,12 @@ p.image-caption {
     line-height: 1.2 !important;
     display: block;
 }
+
+.video-demo {
+    width: 80%;           /* Takes up 80% of the parent container */
+    max-width: 1000px;    /* Prevents it from getting too large on big screens */
+    display: block;       /* Allows margin: auto to work */
+    margin: 40px auto;    /* 'auto' centers it horizontally; 40px adds top/bottom spacing */
+    border-radius: 12px;  /* Softens the edges for a modern look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Adds depth */
+}
