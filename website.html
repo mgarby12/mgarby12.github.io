@@ -34,216 +34,23 @@
 							<p>To ensure the new site met the organization's goals, I initiated weekly consultations with the Outreach Lead to define core requirements.
 								As the sole developer on the project, I was responsible for selecting a sustainable tech stack. Having no previous experience with web-dev, I did some research on different approaches. I chose Python/Flask for the backend (leveraging my existing Python proficiency to build a stable architecture) and HTML/CSS for the frontend. This approach was the perfect balance of technical rigor with a manageable and exciting learning curve. </p>
 							<h2 class="major">Current Implementation & Progress</h2>
-							<h3 class="major">Architecture </h3>
 							<p>I began the development process by establishing the site's "skeleton," a navigation system and routing architecture to ensure a seamless traversal between pages. By mapping out the page hierarchy early, I resolved the broken navigation issues of the previous site and created a functional framework for the rest of the project.</p>
-							<h3 class="major">Frontend</h3>
 							<p>With the architecture in place, I shifted focus to the Home Page. Throughout the design process, I have been conciously prioritizing standardized color schemes, fonts, and assets to create a professional, modern aesthetic, as well as ensuring every interactive element is responsive and serves a clear purpose.</p>
 							
 							<h2>Next Steps</h2>
 							<p>My next priority is meeting with the leads of all subteams to gather project-specific data that will be necessary for the other pages of the site. This is to ensure that each subteam's contributions are accurately and sufficiently portrayed before official launching the site.</p>
 							<p>Once the core content is live, I plan to experiment with some more advanced CSS animations and interactive elements, such as scroll-triggered reveals, hover-state gradients, and micro-interactions to buttons. This will lend to a more engaging user experience.</p>
-							<section>
-    <header>
-        <h3 class="major">Example Execution 1:</h3>
-		<p>Settings: QUEUE water traversal, STACK land traversal, NWSE priority, Map path display</p>
-    </header>
-    <div class="row">
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Input File</h4>
-            <span class="image fit">
-                <img src="images/thMap1.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-        
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Output File</h4>
-            <span class="image fit">
-                <img src="images/thOut1.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-    </div>
-</section>
-							<section>
-    <header>
-        <h3 class="major">Example Execution 2:</h3>
-		<p>Settings: STACK water traversal, QUEUE land traversal, EWSN priority, List path display</p>
-    </header>
-    <div class="row">
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Input File</h4>
-            <span class="image fit">
-                <img src="images/thSpec.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-        
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Output File</h4>
-            <span class="image fit">
-                <img src="images/thOut2.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-    </div>
-</section>
-						
+						</section>
 
+			<section>
+				<video width="100%" autoplay muted loop playsinline poster="assets/home-screenshot.png">
+  					<source src="assets/website-demo.mp4" type="video/mp4">
+  					Your browser does not support the video tag.
+				</video>
+			</section>
 
-
-<h2 class="major">Project 2: Zombie Attack</h2>
-							<p>Efficient and optimal algorithm implemented to prioritize zombie killing based on their unique srengths, speeds, and relative distances. Several rounds played until all zombies killed or zombies kill player.</p>
-							<h3 class="major">Key Technical Features:</h3>
-							<ul>
-    							<li>Priority queue used to prioritize zombie killing</li>
-    							<li>New zombies created both directly as specified by input file and also through random generations</li>
-    							<li>Manages user input through command line arguments for level of verbosity of output</li>
-							</ul>
-							<section>
-    <header>
-        <h3 class="major">Example Execution 1:</h3>
-    </header>
-    <div class="row">
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Input File</h4>
-            <span class="image fit">
-                <img src="images/zIn1.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-        
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Terminal Output</h4>
-            <span class="image fit">
-                <img src="images/zOut1.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-    </div>
-</section>
-							<section>
-    <header>
-        <h3 class="major">Example Execution 2:</h3>
-    </header>
-    <div class="row">
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Input File</h4>
-            <span class="image fit">
-                <img src="images/zIn2.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-        
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Terminal Output</h4>
-            <span class="image fit">
-                <img src="images/zOut2.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-<h2 class="major">Project 3: Data Management System</h2>
-							<p>Several tables of data managed and manipluated based on input file. Operations inlude creating new tables, inserting/deleting/printing data from existing tables, joining distinct tables based matching values of selected columns, and generating a search index (hash or BST) on a selected column of a table.</p>
-							<h3 class="major">Key Technical Features:</h3>
-							<ul>
-    							<li>Design of custom table data structure for efficient storage</li>
-    							<li>Maps and unordered maps used to create BST and hash indexes</li>
-    							<li>Error handling for duplicate table names, attempted access to non-existent tables/columns, and unrecognized commands</li>
-							</ul>
-							<section>
-    <header>
-        <h3 class="major">Example Execution:</h3>
-    </header>
-    <div class="row">
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Input File</h4>
-            <span class="image fit">
-                <img src="images/dIn.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-        
-        <div class="col-6 col-12-medium">
-            <h4 style="text-align: center;">Terminal Output</h4>
-            <span class="image fit">
-                <img src="images/dOut.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-    </div>
-</section>
-							<section>
-
-
-
-	<h2 class="major">Project 4: Graph Traversals</h2>
-							<p>Finds either the minimum spanning tree or an efficient solution to the Traveling Salesperson Problem given a graph as a list of vertices. For increased complexity, movement from the first to third quadrant (or vice versa) is prohibited.</p>
-							<h3 class="major">Key Technical Features:</h3>
-							<ul>
-    							<li>Prim's algorithm implemented to find the minimum spanning tree</li>
-    							<li>2-Opt local search heuristic impltemented for TSP if time efficiency is chosen as priority</li>
-    							<li>Branch and Bound algorithm implemented for TSP if optimal solution is chosen as priority</li>
-							</ul>
-							<section>
-    <header>
-        <h3 class="major">Example Execution:</h3>
-
-    </header>
-    <div class="row" style="justify-content: center; align-items: center;">
-        <div class="col-6 col-12-medium center-column">
-            <h4 style="text-align: center;">Input File</h4>
-            <span class="image">
-                <img src="p4In.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
-            </span>
-        </div>
-        
-        <div class="col-6 col-12-medium center-column">
-            <h4 style="text-align: center;">Output 1</h4>
-            <span class="image">
-                <img src="images/MST.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
-            </span>
-			<p class="image-caption">Finds MST of graph and displays list of edges as node pairs</p>
-        </div>
-<div class="row">
-        <div class="col-6 col-12-medium center-column">
-            <h4 style="text-align: center;">Output 2</h4>
-            <span class="image">
-                <img src="images/FASTTSP.png" alt="Input Map File" style="border: 2px solid #f0f0f0;" />
-            </span>
-			<p class="image-caption">Finds "good enough" solution to TSP within O(N<sup>2</sup>) time complexity</p>
-        </div>
-        
-        <div class="col-6 col-12-medium center-column">
-            <h4 style="text-align: center;">Output 3</h4>
-
-            <span class="image">
-                <img src="images/OPTTSP.png" alt="Terminal Output" style="border: 2px solid #f0f0f0;" />
-            </span>
-			<p class="image-caption">Finds optimal solution to TSP</p>
-        </div>
-
-		
-    </div>
-</section>
-							<section>
-
-
-
-
-
-
-
-
-
-							
-						</div>
-					</section>
-
-				
-
-			</div>
-
-		<!-- Footer -->
+								
+ 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
 					<ul class="menu">
